@@ -58,5 +58,9 @@
         ga('send', 'pageview');
     </script>
   {% endif %}
+
+  {% if site.mathjax_enable %}
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  {% endif %}
   </body>
 </html>

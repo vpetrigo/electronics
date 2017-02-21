@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 permalink: date
 timezone: Europe/Moscow
+mathjax_enable: true
